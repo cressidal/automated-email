@@ -3,5 +3,5 @@
 * replace the template with your own email!
 
 # Downsides
-* program must run til email is send
-* fix this problem by hosting!
+* program must run til email is sent
+* fix this problem by hosting task on service like AWS
