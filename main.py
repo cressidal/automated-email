@@ -29,6 +29,6 @@ interval = dt.timedelta(minutes=2*60) # interval between each email
 
 # loop
 send_time = init_time
-while (time.time() - end_time < 0):
+while (time.time() < end_time.timestamp()):
   send_at(send_time)
   send_time = init_time + interval
